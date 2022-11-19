@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mLayout"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Frame">
+        <ImageView
+            android:id="@+id/ImgView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="50dp"
+            android:src="@drawable/start_img"
+            android:layout_marginLeft="10dp"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/ImgView2"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:padding="20dp"
+        android:src="@drawable/app_jacket"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:textSize="20dp"
+        android:fontFamily="@font/font"
+        android:textColor="#73009688"
+        android:background="@drawable/gradient"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:id="@+id/Btn1"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="help"
+        android:fontFamily="@font/font"
+        android:textColor="#73009688"
+        android:background="@drawable/gradient"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/Btn2"/>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.google.mediapipe.examples.hands-mergeDebugResources-29:/layout/activity_start.xml",
+        "source": "com.google.mediapipe.examples.hands-main-32:/layout/activity_start.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.hands-mergeDebugResources-29:/layout/setup.xml",
+        "source": "com.google.mediapipe.examples.hands-main-32:/layout/setup.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.hands-mergeDebugResources-29:/layout/activity_main.xml",
+        "source": "com.google.mediapipe.examples.hands-main-32:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.hands-mergeDebugResources-29:/layout/youtube_search.xml",
+        "source": "com.google.mediapipe.examples.hands-main-32:/layout/youtube_search.xml"
+    },
+    {
+        "merged": "com.google.mediapipe.examples.hands-mergeDebugResources-29:/layout/item_utube.xml",
+        "source": "com.google.mediapipe.examples.hands-main-32:/layout/item_utube.xml"
+    }
+]
